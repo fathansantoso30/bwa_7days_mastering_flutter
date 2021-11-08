@@ -6,6 +6,12 @@ import 'package:bwa_7days_mastering_flutter/view/day3/signIn1.dart';
 import 'package:bwa_7days_mastering_flutter/view/day3/signIn2.dart';
 import 'package:bwa_7days_mastering_flutter/view/day4/emptyState1.dart';
 import 'package:bwa_7days_mastering_flutter/view/day4/emptyState2.dart';
+import 'package:bwa_7days_mastering_flutter/view/day5/ratingScreen1.dart';
+import 'package:bwa_7days_mastering_flutter/view/day5/ratingScreen2.dart';
+import 'package:bwa_7days_mastering_flutter/view/day6/pricingScreen1.dart';
+import 'package:bwa_7days_mastering_flutter/view/day6/pricingScreen2.dart';
+import 'package:bwa_7days_mastering_flutter/view/day7/randomScreen1.dart';
+import 'package:bwa_7days_mastering_flutter/view/day7/randomScreen2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: EmptyState2(),
+      home: RandomScreen2(),
     );
   }
 }
